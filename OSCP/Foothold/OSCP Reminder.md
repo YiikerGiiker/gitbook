@@ -1,0 +1,47 @@
+Keep it simple & stupid - Take frequent breaks - Eat
+- Be in the present. STEP by STEP.
+- Look for easy solutions first
+- Parts of an exploit may fail ([[Scrutiny]])
+- Check the home directory carefully (file named`.~` [[Scrutiny]])
+- Follow the storyline
+- If something looks suspicious, dig into it first.
+- In google searches, start with a broad scope before narrowing it down
+- Also in google searches, some links might contain more than what appears
+- Look for the first google results, don’t over-anticipate the complexity
+- Read articles in full, the solution often appears after a good read
+- Assume an exploit for version X.Y applies to all prior versions
+- Fuzz with the biggest wordlists
+- Reuse credentials on all services
+- Reuse passwords on other users
+- Use username as password
+- Play with credentials and case sensitivity (remember Jack)
+- Try default credentials
+- Consider the machine name as credentials
+- Scan for UDP ports
+- When stuck, refer to the course (keep an open mind, remember SNMP)
+- Check for bash or powershell history
+- Connect with the mediums of the storyline (remember SSH vs Evil-WinRM)
+- Try! Even if the data you gathered doesn’t guarantee a 100% success rate
+- When you don’t know a port, probe with netcat and telnet
+- Bruteforce is rare, keep it for later
+- Stop thinking like HTB, it’s never gonna be such weird & complex stuff
+- Always try evil-winrm anyways (Remember first oscp)
+- Check for .git in Web and remember git is made of commits
+- Google applications for exploits even if they look custom
+- Look for Changelog, changelog or CHANGELOG on sites
+- On linux look for CRONs
+- Check for robots.txt on sites
+- If you find a .exe on a share or at a weird spot try to replace it by a rev shell
+- REVERT
+    - When an exploit doesn’t work and it should
+    - When you should catch a rev shell and you don’t
+    - After a while not finding anything (no creds no vuln…)
+- Always look for the different features of an exploit
+- If an exploit doesn’t work try another one
+- Identify CVEs before you find their related exploits
+- If two or more CVEs follow each other, try them all
+    - EG CVE-2020-11651 and CVE-2020-11652
+- Try default credentials found in exploits (see PG Practice `Crane`)
+- In web check for `robots.txt` `sitemap.xml` `.svn` `.DS_STORE`
+- Use the first result of google
+- Use accounts may require a $ at the end (svc_apache --> svc_apache$)
